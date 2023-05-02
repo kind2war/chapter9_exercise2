@@ -45,7 +45,20 @@ ul {
     background-position: center;
     margin: 10px;
     background-image: url(img/flow01.png);
+    position: relative;
 }
+
+.img1 p {
+    width:fit-content;
+    background-color: #FF9A4B;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
 .img2{
     width: 280px;
     height: 150px;
@@ -54,6 +67,16 @@ ul {
     margin: 10px;
     background-image: url(img/flow02.png);
 }
+
+.img2 p {
+    width:fit-content;
+    background-color: #FF9A4B;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
 .img3{
     width: 280px;
     height: 150px;
@@ -63,6 +86,14 @@ ul {
     background-image: url(img/flow03.png);
 }
 
+.img3 p {
+    width:fit-content;
+    background-color: #FF9A4B;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
 
 footer {
     width: 100%;
